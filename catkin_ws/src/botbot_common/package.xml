@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>botbot_common</name>
+  <version>0.0.0</version>
+  <description>The botbot_common package</description>
+
+  <maintainer email="jack@coleman.com">JC</maintainer>
+
+
+  <license>MIT</license>
+
+  <depend>roscpp</depend>
+  <depend>mms_master_msgs</depend>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+</package>

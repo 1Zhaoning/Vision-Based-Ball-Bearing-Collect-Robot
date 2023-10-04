@@ -1,0 +1,5 @@
+<launch>
+
+    <node pkg="botbot_planner" type="main" name="DummyNode" respawn="false" output="screen"></node>
+    <rosparam file="$(find botbot_planner)/cfg/config.yaml" />
+</launch>

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>botbot_planner</name>
+  <version>1.0.0</version>
+  <description>The mms template packge with boilerplate code package</description>
+
+  <maintainer email="john.doe@monashmotorsport.com">Jack Coleman</maintainer>
+
+  <license>MIT</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_export_depend>roscpp</build_export_depend>
+  <exec_depend>roscpp</exec_depend>
+
+<!--  If custom message type required-->
+  <build_depend>message_generation</build_depend>
+  <exec_depend>message_runtime</exec_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_export_depend>std_msgs</build_export_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+
+  <depend>mms_library</depend>
+
+
+  <export>
+
+  </export>
+</package>

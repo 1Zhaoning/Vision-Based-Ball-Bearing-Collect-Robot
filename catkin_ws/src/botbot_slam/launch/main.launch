@@ -1,0 +1,5 @@
+<launch>
+
+    <node pkg="botbot_slam" type="main" name="DummyNode" respawn="false" output="screen"></node>
+    <rosparam file="$(find botbot_slam)/cfg/config.yaml" />
+</launch>
